@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: #f2f2f2;
+  padding: 2rem;
+  color: #333;
+}
+
+.browser {
+  max-width: 850px;
+  margin: auto;
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.tabs {
+  background: #eaeaea;
+  padding: 0.8rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.tabs .dot {
+  width: 12px;
+  height: 12px;
+  background: #ccc;
+  border-radius: 50%;
+}
+
+.tabs input {
+  flex: 1;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  background: #fff;
+  font-size: 0.9rem;
+  margin-left: 1rem;
+  color: #666;
+}
+
+.content {
+  display: flex;
+  padding: 1.5rem;
+  gap: 1.5rem;
+}
+
+.sidebar {
+    width: 200px;
+    background: #f6f6f6;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 1.2rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid #ddd;
+  }
+  
+  .avatar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 2px solid #ccc;
+  }
+  
+  .info-line {
+    font-size: 0.92rem;
+    margin: 0.3rem 0;
+    text-align: left;
+    width: 100%;
+  }
+  
+  .sidebar hr {
+    width: 100%;
+    margin: 1rem 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+  }
+  
+  .links {
+    text-align: left;
+    width: 100%;
+  }
+  
+  .links a {
+    margin-right: 0.5rem;
+    color: #444;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 0.9rem;
+  }
+  
+.info {
+  flex: 1;
+}
+
+.label {
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.head1 {
+  background: #bcdfff;
+  color: #236192;
+}
+
+.head2 {
+    background: #d6ebff;
+    color: #24557c;
+}
+
+.box-row {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+  flex-wrap: wrap;
+}
+
+.box {
+  background: #f5f5f5;
+  padding: 0.8rem;
+  border-radius: 10px;
+  flex: 1;
+  min-width: 200px;
+  font-size: 0.9rem;
+}
+
+.time {
+  font-size: 0.85rem;
+  color: #777;
+  margin: 0.5rem 0 1rem;
+}
+

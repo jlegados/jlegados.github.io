@@ -1,10 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My GitHub Page</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PORTFOLIO</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <p>Welcome to my GitHub Pages website.</p>
+  <div class="browser">
+    <div class="tabs">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <input type="text" value="http://julianne.github.io/info" readonly />
+    </div>
+
+    <div class="content">
+      <aside class="sidebar">
+        <img src="images/me.jpeg" alt="profile" class="avatar" />
+        <div class="info-line">👤 <strong>Julianne Legados</strong></div>
+        <div class="info-line">❤️ Comp Sci Major</div>
+        <div class="info-line">💬 3rd Year</div>
+        <div class="info-line">🌍 Cal Poly SLO</div>
+        <hr />
+        <div class="info-line">🔗 <strong>Links</strong></div>
+        <a href="docs/RESUME.pdf" target="_blank" class="resume-button">📄 View My Resume</a>
+      </aside>          
+
+      <main class="info">
+        <p><span class="label head1 ">EDUCATION</span></p>
+        <div class="box">
+          <strong>California Polytechnic State University, SLO</strong><br />
+          B.S. Computer Science (Sept 2022 – Present)<br />
+          Relevant Courses: Data Structures, Systems Programming, Algorithms, Discrete Structures, Computer Organization
+        </div>
+
+        <p><span class="label head1">SKILLS & INTERESTS</span></p>
+        <div class="box-row">
+          <div class="box">
+            <strong>Languages & Tools:</strong><br />
+            HTML, CSS, C, Java, Python, RISC-V Assembly, CircuitPython, UNIX, Canva
+          </div>
+          <div class="box">
+            <strong>Soft Skills:</strong><br />
+            Leadership, Adaptability, Troubleshooting, Multitasking, Problem Solving
+          </div>
+          <div class="box">
+            <strong>Interests:</strong><br />
+            UI Design, K-pop, Journaling, Traveling, Cooking, Languages
+          </div>
+        </div>
+
+        <hr />
+
+        <p><span class="label head1">PROJECTS</span></p>
+        <div class="box-row">
+            <div class="box">
+              <strong>SnapBear</strong><br />
+              Photo booth website for EXO fans, lets users take/customize photos with K-pop themes. Continuously updated based on fan feedback.<br />
+              <a href="https://github.com/jlegados/snapbear" target="_blank" style="font-weight: bold; color: #24557c; text-decoration: underline;">🔗 GitHub</a>
+            </div>
+            <div class="box">
+              <strong>SLOutions</strong><br />
+              React + Bootstrap survey platform for Cal Poly. Full-stack dev, database with MongoDB.<br />
+              <a href="https://github.com/thzhu520/SLOutions" target="_blank" style="font-weight: bold; color: #24557c; text-decoration: underline;">🔗 GitHub</a>
+            </div>
+          </div>
+          
+        <p class="time">20 mins ago ❤️12 💬4</p>
+      </main>
+    </div>
+  </div>
 </body>
 </html>
