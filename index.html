@@ -1,75 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PORTFOLIO</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Julianne Legados</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&family=Nunito:wght@400;600;700&display=swap"
+    rel="stylesheet"
+  >
 </head>
 <body>
-  <div class="browser">
-    <div class="tabs">
-      <span class="dot"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
-      <input type="text" value="http://julianne.github.io/info" readonly />
-    </div>
 
-    <div class="content">
-      <aside class="sidebar">
-        <img src="images/me.jpeg" alt="profile" class="avatar" />
-        <div class="info-line">👤 <strong>Julianne Legados</strong></div>
-        <div class="info-line">❤️ Comp Sci Major</div>
-        <div class="info-line">💬 4th Year</div>
-        <div class="info-line">🌍 Cal Poly SLO</div>
-        <hr />
-        <div class="info-line">🔗 <strong>Links</strong></div>
-        <a href="docs/JULI_RES (1).pdf" target="_blank" class="resume-button">📄 View My Resume</a>
-      </aside>          
+  <main class="page home-page">
 
-      <main class="info">
-        <p><span class="label head1 ">EDUCATION</span></p>
-        <div class="box">
-          <strong>California Polytechnic State University, SLO</strong><br />
-          B.S. Computer Science (Expected Jun 2026)<br />
-          Relevant Courses: Data Structures, Systems Programming, Algorithms, Discrete Structures, Computer Organization
-        </div>
+    <section class="scene home-scene">
+      
+      <div class="hero-layout">
 
-        <p><span class="label head1">SKILLS & INTERESTS</span></p>
-        <div class="box-row">
-          <div class="box">
-            <strong>Languages & Tools:</strong><br />
-            HTML, CSS, C, Java, Python, RISC-V Assembly, CircuitPython, UNIX, Canva
-          </div>
-          <div class="box">
-            <strong>Soft Skills:</strong><br />
-            Leadership, Adaptability, Troubleshooting, Multitasking, Problem Solving
-          </div>
-          <div class="box">
-            <strong>Interests:</strong><br />
-            UI Design, K-pop, Journaling, Traveling, Cooking, Languages
-          </div>
-        </div>
+        <nav class="icon-nav">
 
-        <hr />
+          <a href="about.html" class="nav-item">
+            <div class="mini-bear">
+              <span class="mini-ear left"></span>
+              <span class="mini-ear right"></span>
 
-        <p><span class="label head1">PROJECTS</span></p>
-        <div class="box-row">
-            <div class="box">
-              <strong>SnapBear</strong><br />
-              Photo booth website for EXO fans, lets users take/customize photos with K-pop themes. Continuously updated based on fan feedback.<br />
-              <a href="https://snapbear.netlify.app/" target="_blank" style="font-weight: bold; color: #24557c; text-decoration: underline;">🔗 Website</a>
+              <div class="mini-face">
+                <span class="mini-eye left"></span>
+                <span class="mini-eye right"></span>
+                <span class="mini-muzzle">ᴥ</span>
+              </div>
             </div>
-            <div class="box">
-              <strong>SLOutions</strong><br />
-              React + Bootstrap survey platform for Cal Poly. Full-stack dev, database with MongoDB.<br />
-              <a href="https://github.com/thzhu520/SLOutions" target="_blank" style="font-weight: bold; color: #24557c; text-decoration: underline;">🔗 GitHub</a>
+            <span>about me</span>
+          </a>
+
+          <a href="experience.html" class="nav-item">
+            <div class="nav-icon laptop-icon">
+              <div class="laptop-screen">&lt;/&gt;</div>
+              <div class="laptop-base"></div>
+            </div>
+            <span>experience</span>
+          </a>
+
+          <a href="projects.html" class="nav-item">
+            <div class="nav-icon folder-icon">
+              <div class="folder-tab"></div>
+              <div class="folder-body">★</div>
+            </div>
+            <span>my projects</span>
+          </a>
+
+          <a href="contact.html" class="nav-item">
+            <div class="nav-icon mail-icon">
+              <span>♡</span>
+            </div>
+            <span>contact me</span>
+          </a>
+
+        </nav>
+
+
+        <div class="window home-window">
+
+          <div class="window-bar">
+            <div class="window-dots">
+              <span class="window-dot red"></span>
+              <span class="window-dot yellow"></span>
+              <span class="window-dot green"></span>
+            </div>
+
+            <span class="window-title">home.</span>
+          </div>
+
+
+          <div class="window-content hero-content">
+            <p class="tiny-intro">hello! ♡</p>
+
+            <h2>hi, i'm julianne</h2>
+
+            <p class="hero-subtitle">
+              software engineer & computer science graduate
+            </p>
+
+            <div class="hero-buttons">
+              <a
+                href="docs/JULI_RES (1).pdf"
+                target="_blank"
+                class="cute-button blue"
+              >
+                View Resume
+              </a>
             </div>
           </div>
-          
-        <p class="time">20 mins ago ❤️12 💬4</p>
-      </main>
-    </div>
-  </div>
+
+        </div>
+      </div>
+
+
+      <div class="bear-wrapper hero-bear">
+        <div class="bear">
+          <div class="bear-ear left">
+            <div class="inner-ear"></div>
+          </div>
+
+          <div class="bear-ear right">
+            <div class="inner-ear"></div>
+          </div>
+
+          <div class="bear-head">
+            <span class="bear-eye left"></span>
+            <span class="bear-eye right"></span>
+
+            <span class="bear-cheek left"></span>
+            <span class="bear-cheek right"></span>
+
+            <div class="bear-muzzle">
+              <span class="bear-nose"></span>
+              <span class="bear-mouth">ω</span>
+            </div>
+          </div>
+
+          <div class="bear-body">
+            <div class="bear-belly"></div>
+            <div class="bear-leg left"></div>
+            <div class="bear-leg right"></div>
+          </div>
+
+          <div class="bear-laptop">♡</div>
+        </div>
+      </div>
+
+
+      <div class="flower flower-left">
+        <span class="flower-head">✿</span>
+        <span class="flower-stem"></span>
+      </div>
+
+      <div class="flower flower-right">
+        <span class="flower-head">✿</span>
+        <span class="flower-stem"></span>
+      </div>
+
+      <div class="grass"></div>
+
+    </section>
+
+  </main>
+
 </body>
 </html>
